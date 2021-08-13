@@ -56,7 +56,7 @@ MIDDLEWARE = [
 ]
 
 CORS_ORIGIN_WHITELIST = [
-    "http://localhost:3000",
+    "http://localhost:3000","https://nextjs-blog-todos-fawn.vercel.app"
 ]
 SIMPLE_JWT = {
     'AUTH_HEADER_TYPES' : ('JWT',),
